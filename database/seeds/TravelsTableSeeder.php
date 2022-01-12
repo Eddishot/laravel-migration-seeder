@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Database\Seeder;
-use App\travel;
+use App\Travel;
 use Faker\Generator as Faker;
 
 class TravelsTableSeeder extends Seeder
