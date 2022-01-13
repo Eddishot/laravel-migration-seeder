@@ -15,10 +15,10 @@ class TravelsTableSeeder extends Seeder
     {
         for ($i=0; $i < 10 ; $i++) { 
             $newTravel = new Travel();
-            $newTravel-> airport = $faker->name();
-            $newTravel-> country = $faker->state();
-            $newTravel-> description = $faker->realText();
-            $newTravel-> airline = $faker->name();
+            $newTravel->airport = $faker->name();
+            $newTravel->country = $faker->state();
+            $newTravel->description = $faker->text();
+            $newTravel->airline = $faker->name();
             $newTravel->save();
             
 
