@@ -14,8 +14,8 @@
         @foreach ($travels as $travel)
         <h1> Travel number{{ $travel['id'] }} </h1>
         <h2> Airplane: {{ $travel['airport'] }} </h2>
-        <p> Description: {{ $travel['description'] }} </p>
-        <p> Name of the Airline: {{ $travel['airline'] }} </p>
+        <h3> Description: {{ $travel['description'] }} </h3>
+        <h3> Name of the Airline: {{ $travel['airline'] }} </h3>
     @endforeach
 
 
